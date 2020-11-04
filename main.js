@@ -69,7 +69,7 @@ function getMonthString(date){
     const getMonthDay = date.getDate();
     const monthIndex = date.getMonth();
 
-    const prefix = monthIndex + ' ';
+    const prefix = getMonthDay + ' ';
 
     switch (monthIndex) {
         case 0: return prefix + 'Januari';
