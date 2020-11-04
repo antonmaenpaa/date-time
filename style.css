@@ -12,7 +12,17 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     color: tomato;
     background: black;
     height: 100%;
+}
+
+h2{
+    font-size: 4rem;
+    margin: 2rem;
+}
+
+h3 {
+    font-size: 1rem;
 }
